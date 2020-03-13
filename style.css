@@ -139,7 +139,7 @@ header h1 {
 
 .skill-wrapper {
   display: flex;
-  flex: wrap;
+  justify-content: space-between;
 }
 
 
