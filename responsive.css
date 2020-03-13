@@ -1,0 +1,207 @@
+@media (max-width: 1024px){
+  
+  
+  /*タイトル*/
+  .title {
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+  
+  
+  /*about*/
+  #about p {
+    font-size: 12px;
+  }
+  
+  /*skill*/
+  #skill {
+    padding-bottom: 30px;
+  }
+  
+  #skill h2 {
+    font-size:12px;
+    
+  }
+  
+  #skill p {
+    font-size: 10px;
+    
+  }
+  
+  /*panelアイコン*/
+  .fab {
+    font-size: 60px;
+  }
+  
+  .panel-logo {
+    margin-bottom: 0;
+    height: 50px;
+  }
+  
+  /*skillテキスト*/
+  #skill p {
+    font-size: 8px;
+  }
+  
+  .skill-wrapper {
+    justify-content: space-between;
+  }
+  
+
+  /*works*/
+  #works {
+    padding-bottom: 60px;
+  }
+  
+  .works-list {
+    padding-left: 0;
+  }
+  
+  .works-list li  {
+    width: 80%;
+    height: 100px;
+    
+  }
+  
+  .works-list li img {
+    height: 100%;
+    width: 80%;
+  }
+  
+  /*モーダル画面*/
+  .modal-list {
+    width: 70%;
+  }
+  
+  .modal-txt p {
+    font-size: 12px;
+  }
+  
+  .modal-img {
+   width: 45%;
+   height: 70%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+  
+  
+}
+
+
+@media(max-width:640px){
+  
+  header {
+    height: 300px
+  }
+  
+  header::after{
+    height: 300px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  .title {
+    font-size: 25px;
+    margin-bottom: 80px;
+  }
+  
+  #about .title {
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  
+  /*#about*/
+  #about {
+    padding: 0 0 50px;
+  }
+  
+  
+  #about p {
+    text-align: left;
+    font-size:11px;
+    
+  }
+  
+  /*skill*/
+  .skill-wrapper {
+    flex-direction: column;
+  }
+  
+  #skill {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #skill p {
+    font-size: 10px;
+  }
+  
+  #skill h2 {
+    font-size: 16px;
+  }
+  
+  /*panel*/
+  
+  .panel {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  
+  .panel-logo {
+    height: 100px;
+  }
+  
+  .fab {
+    font-size: 90px;
+  }
+  
+  /*works*/
+  
+  .works {
+    padding-bottom: 0;
+    
+  }
+  .works-list {
+    flex-direction: column;
+    padding: 0;
+    width: 250px;
+  }
+  
+  .works-list li {
+    margin-right: 0;
+    width: 230px;
+    margin-bottom: 80px;
+    height: 150px;
+  }
+  
+  .works-list li img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .modal-wrapper ul {
+    padding-left: 0;
+    margin-top: 0;
+  }
+  
+  /*モーダル*/
+  
+  .modal-list {
+    height: 200px;
+  }
+  
+  .modal-img {
+   display: none;
+  }
+  
+  .modal-txt p {
+   font-size: 11px
+  }
+  
+  
+}
+
+
